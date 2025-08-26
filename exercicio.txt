@@ -1,1 +1,15 @@
+let cor = prompt("Qual é a cor?");
 
+if(cor === "azul"){
+    console.log("cor fria, esse é o que você precisa?")
+}else if(cor === "azul goiaba"){
+    console.log("não existe essa cor");
+}else if(cor === "vermelha"){
+    console.log("cor quente, esse é o que você precisa?");
+}else if (cor === "verde"){
+    console.log("cor natural,esse é o que você precisa?");
+}else if(cor === "verde manga"){
+    console.log("cor natural, esse é o que você precisa?");
+}else{
+    console.log("cor é invalida")
+}
